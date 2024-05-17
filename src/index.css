@@ -1,7 +1,7 @@
 @import url("./font.css");
 
 :root {
-  font-family: "Runde", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Runde", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: -0.025em;
