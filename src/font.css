@@ -1,15 +1,15 @@
 @font-face {
   font-family: "Runde";
-  src: url("fonts/OpenRunde-Medium.woff2") format("woff2"),
-    url("fonts/OpenRunde-Medium.woff") format("woff");
+  src: url("/fonts/OpenRunde-Medium.woff2") format("woff2"),
+    url("/fonts/OpenRunde-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Runde";
-  src: url("fonts/OpenRunde-Semibold.woff2") format("woff2"),
-    url("fonts/OpenRunde-Semibold.woff") format("woff");
+  src: url("/fonts/OpenRunde-Semibold.woff2") format("woff2"),
+    url("/fonts/OpenRunde-Semibold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
