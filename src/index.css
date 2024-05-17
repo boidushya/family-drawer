@@ -1,0 +1,100 @@
+@import url("./font.css");
+
+:root {
+  font-family: "Runde", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1a1b1c;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  position: relative;
+  overflow: hidden;
+}
+
+main {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-block: 6rem;
+  padding-inline: 1.5rem;
+}
+
+main > h3 {
+  font-size: 1.5em;
+  line-height: 1.5;
+  color: hsla(0, 0%, 100%, 1);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+main > p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: hsla(0, 0%, 80%, 1);
+  margin-bottom: 2rem;
+}
+
+a {
+  font-weight: 500;
+  color: hsla(200, 50%, 55%, 1);
+  text-decoration: inherit;
+  transition: color 0.15s;
+}
+a:hover {
+  color: hsla(200, 50%, 40%, 1);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #2a2b2c;
+  cursor: pointer;
+}
+
+button.btn {
+  transition: border-color 0.25s;
+  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0 inset,
+    rgba(0, 0, 0, 0.2) 0 1.5px 3px;
+}
