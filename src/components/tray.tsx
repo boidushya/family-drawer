@@ -1,4 +1,4 @@
-import React, { useCallback, useContext, useRef } from "react";
+import { useCallback, useContext, useRef } from "react";
 import { TrayContext, TrayProviderProps } from "../contexts/TrayProvider";
 import { AnimatePresence, motion } from "framer-motion";
 import { useResizeObserver } from "../hooks";
